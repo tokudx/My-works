@@ -1,8 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        String word1 = "こんにちは。";
-        String word2 = "私はJavaです。";
-        String word3 = word1 + word2;
-        System.out.println(word3.length());
+        String word = "こんにちは。私はJavaです。";
+        System.out.println(word.substring(6,12));
+        System.out.println(word.substring(12));
     }
 }   
